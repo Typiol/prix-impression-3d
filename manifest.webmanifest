@@ -1,0 +1,17 @@
+{
+  "name": "Prix Impression 3D",
+  "short_name": "Prix 3D",
+  "description": "Calcule le prix de vente de tes impressions 3D : filament, électricité, usure, main-d'œuvre et coefficient.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f5f4",
+  "theme_color": "#0b7a6e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
