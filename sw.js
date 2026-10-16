@@ -1,16 +1,16 @@
 // Mode hors ligne de Prix Impression 3D.
 // À chaque mise à jour de l'appli, change le numéro ci-dessous (v1.0 -> v1.1...)
 // pour que les téléphones récupèrent la nouvelle version.
-const CACHE = "prix3d-v1.2";
+const CACHE = "prix3d-v1.2.1";
 const FILES = [
   "./",
   "index.html",
   "manifest.webmanifest",
-  "icons/icon-192.png",
-  "icons/icon-512.png",
-  "icons/icon-maskable-512.png",
-  "icons/apple-touch-icon.png",
-  "icons/favicon.png"
+  "icon-192.png",
+  "icon-512.png",
+  "icon-maskable-512.png",
+  "apple-touch-icon.png",
+  "favicon.png"
 ];
 
 self.addEventListener("install", e => {
